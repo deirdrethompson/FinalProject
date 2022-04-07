@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles-3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta&family=Palette+Mosaic&display=swap" rel="stylesheet">
+    <title>Perennial</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header-logo">
+            <a href="index.html">
+                <img class="hero-image stretch" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Lilium_candidum_1.jpg/480px-Lilium_candidum_1.jpg"
+                    alt="Rose Assortment" </a>
+
+
+        </div>
+
+        <div class="header-items">
+            <nav class="nav">
+                <a href="index.html">Home</a>
+                <a href="general.html">Contact</a>
+                <a href="Perennials.html">Perenial Flowers</a>
+                <a href="Annuals.html">Annuals</a>
+            </nav>
+        </div>
+
+    </div>
+    <div id="stylized" class="myform">
+        <form id="form" name="form" method="post" action="Test.html">
+            <h1>In Stock Selection of Flowers</h1>
+            <br>
+            <br>
+
+
+            <!--Partial Shade Perennial Flowers-->
+
+
+            <div class="column">
+                <h3>Partial Shade</h3>
+                <br>
+                <!--partial shade flower1-->
+                <input form="myForm" type="checkbox" name="flowers" id="parshade1" value="cardinalflower" onclick="return ValidateSelection();">
+                <label for="parshade1">Cardinal Flower</label>
+                <br>
+                <label for="parshade1">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Corycium_orobanchoides_-_Edwards_vol_24_%28NS_1%29_pl_45_%281838%29.jpg/60px-Corycium_orobanchoides_-_Edwards_vol_24_%28NS_1%29_pl_45_%281838%29.jpg">
+                </label>
+                <br>
+                <br>
+                <!--partial shade flower2-->
+                <input form="myForm" type="checkbox" name="flowers" id="parshade2" value="amsoniablue" onclick="return ValidateSelection();">
+                <label for="parshade2">Amsonia, Bluestar</label>
+                <br>
+                <label for="parshade2">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Amsonia-tabernaemontana-flowers.JPG/100px-Amsonia-tabernaemontana-flowers.JPG">
+                </label>
+
+            </div>
+            <!--Full Sun Perennial Flowers-->
+            <div class="column">
+                <h3>Full Sun</h3>
+                <br>
+                <!--full sun flower 1-->
+                <input form="myForm" type="checkbox" name="flowers" id="fullsun1" value="salvia" onclick="return ValidateSelection();">
+                <label for="fullsun1">Salvia</label>
+                <br>
+                <label for="fullsun1">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Salvia_officinalis0.jpg/100px-Salvia_officinalis0.jpg">
+                </label>
+                <br>
+                <br>
+                <!--full sun flower 2-->
+                <input form="myForm" type="checkbox" name="flowers" id="fullsun2" value="blackeyedsusan" onclick="return ValidateSelection();">
+                <label for="fullsun2">Black-Eyed Susan</label>
+                <br>
+                <label for="fullsun2">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Black_eyed_susan_20040717_110754_2.1474.jpg/100px-Black_eyed_susan_20040717_110754_2.1474.jpg">
+                </label>
+
+            </div>
+
+
+            <!--Full Sun Perennial Flowers-->
+            <div class="column">
+                <h3>Full Sun and Partial Shade</h3>
+                <br>
+                <!--full sun flower 1-->
+                <input form="myForm" type="checkbox" name="flowers" id="sunshade1" value="anemonejapanese" onclick="return ValidateSelection();">
+                <label for="sunshade1">Anemone, Japanese</label>
+                <br>
+                <label for="sunshade1">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Anemone_hupehensis_var._japonica_1.jpg/50px-Anemone_hupehensis_var._japonica_1.jpg">
+                </label>
+                <br>
+                <br>
+                <!--full sun flower 2-->
+                <input form="myForm" type="checkbox" name="flowers" id="sunshade2" value="balloonflower" onclick="return ValidateSelection();">
+                <label for="sunshade2">Balloon Flower</label>
+                <br>
+                <label for="sunshade2">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Platycodon_grandiflorum2.jpg/60px-Platycodon_grandiflorum2.jpg">
+                </label>
+
+            </div>
+
+
+
+
+
+
+
+
+            <br>
+
+            <input type="submit" button id="alert-button" onclick="alert('Your purchase has been completed');">
+            </button>
+
+
+
+            </p>
+        </form>
+</body>
+
+</html>
